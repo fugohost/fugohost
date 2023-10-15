@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fugohost/static/css/main.073c9b0a.css",
+    "main.js": "/fugohost/static/js/main.b76a7add.js",
+    "static/js/787.9d9515e8.chunk.js": "/fugohost/static/js/787.9d9515e8.chunk.js",
+    "index.html": "/fugohost/index.html",
+    "main.073c9b0a.css.map": "/fugohost/static/css/main.073c9b0a.css.map",
+    "main.b76a7add.js.map": "/fugohost/static/js/main.b76a7add.js.map",
+    "787.9d9515e8.chunk.js.map": "/fugohost/static/js/787.9d9515e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b76a7add.js"
+  ]
+}
