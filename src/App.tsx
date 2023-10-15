@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h2>Hello Everyone, Welcome to Fugohost</h2>
+      <h2>Hello Everyone, Welcome to Fugohost!</h2>
     </div>
   );
 }
