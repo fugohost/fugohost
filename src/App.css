@@ -28,6 +28,71 @@
   color: #61dafb;
 }
 
+header{
+  height:auto;
+  min-height: 130px;
+  padding-top: 10px;
+  /* border-bottom: 10px solid blue; */
+}
+.headerDiv{
+  width: 100%;
+  max-width: 1200px;
+  margin-left:auto;
+  margin-right: auto;
+}
+.headerLeft{
+  float: left;
+}
+.headerRight{
+  float:right;
+  padding-top:20px;
+  padding-right: 10px;
+}
+.headerRight a
+{
+  font-size: 1.2em;
+}
+.logoStyle{
+  height: 100px;
+  width: 100%;
+  margin-left:10px;
+}
+
+footer{
+  background-color: #EEE;
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  /* border-top: 10px solid blue; */
+  padding:20px 10px ;
+}
+
+.footerDiv{
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerLeft{
+  float: left;
+}
+
+.footerLeft p{
+  width: 100%;
+  max-width: 450px;
+  font-size: 2rem;
+}
+
+.footerRight{
+  float: right;
+}
+
+main{
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
