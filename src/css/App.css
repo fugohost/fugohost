@@ -30,13 +30,13 @@
 
 header{
   height:auto;
-  min-height: 130px;
+  min-height: 120px;
   padding-top: 10px;
   /* border-bottom: 10px solid blue; */
 }
 .headerDiv{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   margin-left:auto;
   margin-right: auto;
 }
@@ -45,12 +45,24 @@ header{
 }
 .headerRight{
   float:right;
-  padding-top:20px;
+  padding-top:24px;
   padding-right: 10px;
 }
 .headerRight a
 {
   font-size: 1.2em;
+  text-decoration: none;
+  margin-right: 14px;
+}
+.bookBtn{
+  background-color: #FFF !important;
+  color:#f95959 !important;
+  border: 1px solid #f95959 !important;
+  font-size: 1.2rem !important;
+}
+.bookBtn:hover{
+  color: #FFF !important;
+  background-color:#f95959 !important;
 }
 .logoStyle{
   height: 100px;
@@ -59,19 +71,18 @@ header{
 }
 
 footer{
-  background-color: #EEE;
+  background-color: #F3F3F3;
   width: 100%;
   height: auto;
-  min-height: 230px;
-  /* border-top: 10px solid blue; */
   padding:20px 10px ;
 }
 
 .footerDiv{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  display: inline-block;
 }
 
 .footerLeft{
@@ -92,6 +103,51 @@ main{
   width: 100%;
   height: auto;
   min-height: 500px;
+}
+.developmentDiv{
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  background-color:  #f6f8f7;
+}
+.hostingContainer{
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-color: #F3F3F3;
+}
+.learningContainer{
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-color: #ccedff;
+}
+.developmentDivLeft{
+  float: left;
+  width:40%;
+  padding: 20px;
+}
+.developmentDivRight{
+  float: right;
+  width: 60%;
+}
+.developmentDivRight img{
+  float: right;
+  width: 900px;
+  height: auto;
+}
+.developmentDivLeft p{
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  margin-top:40px;
+}
+.developmentDivLeft img{
+  width: 80%;
+  opacity: 0.8;
+  margin-top:100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 @keyframes App-logo-spin {
   from {
