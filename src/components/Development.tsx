@@ -6,7 +6,7 @@ function Development(){
     <div className="developmentDiv" id="Development">
       <div className="developmentDivLeft">
         <p>Custom software development
-<br/>that <br/> makes a difference</p>
+<br/>That <br/> Makes a difference</p>
 <a type="button" className="btn btn-outline-primary bookBtn" href="https://calendly.com/fugohost/30min" target="_blank" rel="noreferrer">Book A Free Consultation</a>
      <img src={TechStack} alt="react-node-mysql-nest"/>
       </div>
