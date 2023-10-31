@@ -40,7 +40,7 @@ const tiles = [
 function Hosting(){
   return(
     <div className="hostingContainer" id="Hosting">
-      <p>Your website maintenance with us <br/> Mean <br/> Peace of mind</p>
+      <p>Your website development with us <br/> Mean <br/> Best tech stack</p>
       <div>
         {
           tiles.map((tile) => {
