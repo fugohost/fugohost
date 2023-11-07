@@ -3,11 +3,11 @@ import logo from '../images/logo.png';
 function Header(){
   return(
     <header>
-      <div className="headerDiv">
-      <div className="headerLeft">
+      <div className="row headerDiv">
+      <div className="col-sm-12 col-md-2 headerLeft">
         <img  src={logo} alt="FugoHost" className="logoStyle"/>
       </div>
-      <div className="headerRight">
+      <div className="d-none d-md-block col-md-10 headerRight text-end">
         <a type="button" className="link-secondary" href="#Learning">Learning</a>
         <a type="button" className="link-secondary" href="#Hosting">Hosting</a>
         <a type="button" className="link-secondary" href="#Consulting">IT Consulting</a>
