@@ -28,172 +28,261 @@
   color: #61dafb;
 }
 
-header{
-  height:auto;
+header {
+  height: auto;
   min-height: 120px;
   padding-top: 10px;
-  /* border-bottom: 10px solid blue; */
+  border-bottom: 1px solid #ccc;
 }
-.headerDiv{
+.headerDiv {
   width: 100%;
-  max-width: 1600px;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
 }
-.headerLeft{
+.headerLeft {
   float: left;
 }
-.headerRight{
-  float:right;
-  padding-top:24px;
+.headerRight {
+  float: right;
   padding-right: 10px;
+  padding-top: 26px !important;
 }
-.headerRight a
-{
+.headerRight a {
   font-size: 1.2em;
   text-decoration: none;
   margin-right: 14px;
 }
-.bookBtn{
-  background-color: #FFF !important;
-  color:#f95959 !important;
+.bookBtn {
+  background-color: #fff !important;
+  color: #f95959 !important;
   border: 1px solid #f95959 !important;
   font-size: 1.2rem !important;
 }
-.bookBtn:hover{
-  color: #FFF !important;
-  background-color:#f95959 !important;
+.bookBtn:hover {
+  color: #fff !important;
+  background-color: #f95959 !important;
 }
-.logoStyle{
+.logoStyle {
   height: 100px;
   width: 120px;
+  float: left;
+  margin-left: 14px;
 }
 
-footer{
-  background-color: #F3F3F3;
+footer {
+  background-color: #f3f3f3;
   width: 100%;
   height: auto;
-  padding:20px 10px ;
+  padding: 20px 10px;
 }
 
-.footerDiv{
+.footerDiv {
   width: 100%;
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
 }
 
-.footerLeft{
+.footerLeft {
   float: left;
 }
 
-.footerLeft p{
+.footerLeft p {
   width: 100%;
-  max-width: 450px;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
-.footerRight{
+.footerRight {
   float: right;
 }
 
-main{
+main {
   width: 100%;
   height: auto;
   min-height: 500px;
 }
-.developmentDiv{
+.developmentDiv {
   width: 100%;
   height: auto;
-  min-height: 500px;
-  background-color:  #f6f8f7;
-}
-.hostingContainer{
-  width: 100%;
-  height: auto;
-  min-height: 450px;
-  background-color: #F3F3F3;
-}
-.learningContainer{
-  width: 100%;
-  height: auto;
-  min-height: 500px;
   background-color: #ccedff;
 }
-.learningContainerLeft{
-  float: left;
-  width:40%;
-  height: 500px;
+.hostingContainer {
+  padding-bottom: 5% !important;
+  width: 100%;
+  height: auto;
+  background-color: #f3f3f3;
+  display: inline-block;
 }
-.learningContainerLeft p{
+.learningContainer {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  background-color: #ccedff;
+}
+.learningContainerLeft {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+.learningContainerLeft p {
   width: 100%;
   font-size: 2rem;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.learningContainerRight{
+.learningContainerRight {
   float: right;
   width: 60%;
-  height: 500px;
+  height: 300px;
   overflow: hidden;
 }
 
-.learningContainerRight img{
+.learningContainerRight img {
   width: 100%;
 }
-.developmentDivLeft{
+.developmentDivLeft {
   float: left;
-  width:40%;
-  height: 500px;
+  width: 40%;
+  max-height: 400px;
+  height: auto;
 }
-.developmentDivRight{
+.developmentDivRight {
   float: right;
   width: 60%;
-  height: 500px;
+  max-height: 400px;
+  height: auto;
   overflow: hidden;
 }
-.developmentDivRight img{
+.developmentDivRight img {
   float: right;
   width: 100%;
   height: auto;
 }
-.developmentDivLeft p{
+.developmentDivLeft p {
   width: 100%;
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-align: center;
-  margin-top:40px;
-  margin-bottom:20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-.developmentDivLeft img{
+.developmentDivLeft img {
   width: 80%;
   opacity: 0.8;
-  margin-top:100px;
+  margin-top: 100px;
   margin-left: 10%;
   margin-right: 10%;
 }
-.hostingContainer p{
+.hostingContainer p {
   width: 100%;
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-align: center;
-  padding-top:20px;
+  padding-top: 20px;
   margin-bottom: 0px;
 }
 .tile {
   float: left;
-  margin: 2.5% 6% 0% 6%;
+  margin: 2.5% 6% 0% 6% !important;
   width: 20%;
 }
-.tile img{
+.tile img {
   width: 30px;
   height: auto;
 }
+.headerRight ul {
+  list-style-type: none;
+}
+.headerRight ul li {
+  display: inline-block;
+}
+.menubar {
+  display: none;
+}
+
+.ulShowMenu {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.ulHideMenu {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .ulShowMenu {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+
+  .ulHideMenu {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .developmentDivLeft {
+    background-color: #ccedff;
+    padding-bottom: 40px !important;
+  }
+  p {
+    font-size: 1.5rem !important;
+  }
+  .tile {
+    float: left;
+    margin: 5% 6% 0% 6%;
+    width: 20%;
+  }
+  .tile img {
+    width: 24px;
+    height: auto;
+  }
+  .tile h4 {
+    font-size: 1rem !important;
+  }
+  .learningContainer {
+    padding-bottom: 40px !important;
+  }
+  .hostingContainer {
+    padding-bottom: 40px !important;
+    padding-top: 20px !important;
+  }
+  .hostingContainer p {
+    margin-bottom: 10px;
+  }
+  .headerRight nav {
+    margin-top: 40px;
+  }
+  .headerRight ul {
+    list-style-type: none;
+    position: absolute;
+    background-color: #fff;
+    padding-bottom: 20px;
+    width: 100%;
+    right: 0;
+    margin-top: 10px;
+    box-shadow: 0px 1px 0px 1px #ddd;
+  }
+  .headerRight ul li {
+    display: block;
+    padding: 10px 0px;
+    float: right;
+    width: 100%;
+  }
+  .menubar {
+    display: block;
+    right: 0;
+    margin-right: 10px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    width: 40px;
   }
 }

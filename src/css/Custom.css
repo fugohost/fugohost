@@ -1,0 +1,63 @@
+.customDiv {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: inline-block;
+  margin-top: 20px !important;
+  padding-left: 10px !important;
+}
+
+.customDiv h4 {
+  float: left !important;
+  color: #007bff;
+}
+
+.customDiv p {
+  float: left !important;
+  text-align: left !important;
+  font-size: 1rem !important;
+}
+.customCard {
+  width: 18rem;
+  float: left;
+  margin-right: 20px !important;
+  padding: 5px !important;
+  cursor: pointer;
+  /* background-color: #ccedff !important; */
+}
+.customCard:hover {
+  background-color: #efefef !important;
+}
+.customCardText {
+  padding-left: 5px !important;
+  /* color: #fff !important; */
+}
+.customCardTitle {
+  /* color: #fff !important; */
+}
+
+.customHosting {
+  margin-bottom: 30px !important;
+}
+
+@media only screen and (max-width: 950px) {
+  .customDiv p {
+    float: left !important;
+    text-align: left !important;
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .customCard {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    float: none;
+    margin-bottom: 30px !important;
+    width: 90% !important;
+  }
+  .customHosting {
+    margin-bottom: 0px !important;
+  }
+}

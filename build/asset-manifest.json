@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.b45b71ae.css",
-    "main.js": "./static/js/main.a2046800.js",
+    "main.css": "./static/css/main.23f112ba.css",
+    "main.js": "./static/js/main.82e38eb8.js",
     "static/js/787.9d9515e8.chunk.js": "./static/js/787.9d9515e8.chunk.js",
     "static/media/learning.jpg": "./static/media/learning.2262118c0e0a7bdc7abf.jpg",
     "static/media/web-development.jpg": "./static/media/web-development.916c2fd7f389510c2d3d.jpg",
-    "static/media/react-node-nest-mysql.png": "./static/media/react-node-nest-mysql.383fb0dab860f31cae19.png",
     "static/media/logo.png": "./static/media/logo.5a645bdba36ab1291b94.png",
     "static/media/mysql.svg": "./static/media/mysql.c23789391cb92abb843b89881729da28.svg",
     "static/media/reactjs.svg": "./static/media/reactjs.b092ad79d6b9f2bf199975b337138927.svg",
@@ -14,12 +13,13 @@
     "static/media/js.svg": "./static/media/js.b91048e0001feaab42c7bbcd85155ff8.svg",
     "static/media/mongodb.svg": "./static/media/mongodb.9b4df7b9f53a3039990c289e2d318c78.svg",
     "index.html": "./index.html",
-    "main.b45b71ae.css.map": "./static/css/main.b45b71ae.css.map",
-    "main.a2046800.js.map": "./static/js/main.a2046800.js.map",
+    "static/media/menu.svg": "./static/media/menu.c6af35369256db05e30e46d2751aea37.svg",
+    "main.23f112ba.css.map": "./static/css/main.23f112ba.css.map",
+    "main.82e38eb8.js.map": "./static/js/main.82e38eb8.js.map",
     "787.9d9515e8.chunk.js.map": "./static/js/787.9d9515e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b45b71ae.css",
-    "static/js/main.a2046800.js"
+    "static/css/main.23f112ba.css",
+    "static/js/main.82e38eb8.js"
   ]
 }
