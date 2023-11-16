@@ -17,8 +17,8 @@ ReactGA.initialize(TRACKING_ID);
 function App() {
   return (
     <div className="App">
-      <Header />
       <HashRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/web-hosting" element={<Hosting />} />
@@ -26,8 +26,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="web-development" element={<WebDevelopment />} />
         </Routes>
+        <Footer />
       </HashRouter>
-      {/* <Footer /> */}
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import Footer from "./Footer";
 function About() {
   return (
     <div>
@@ -35,7 +34,6 @@ function About() {
           conversion rates, or improved user engagement.
         </p>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import Footer from "./Footer";
 function Hosting() {
   return (
     <div>
@@ -83,7 +82,6 @@ function Hosting() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

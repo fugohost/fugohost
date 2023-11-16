@@ -1,5 +1,4 @@
 import "../css/Custom.css";
-import Footer from "./Footer";
 function Services() {
   return (
     <div>
@@ -77,7 +76,6 @@ function Services() {
           brand identity.
         </p>
       </div>
-      <Footer />
     </div>
   );
 }

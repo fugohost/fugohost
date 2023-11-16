@@ -12,7 +12,7 @@ function Development() {
         </p>
         <a
           type="button"
-          className="btn btn-outline-primary bookBtn"
+          className="btn btn-outline-primary bookBtn buttonSpecial"
           href="https://calendly.com/fugohost/30min"
           target="_blank"
           rel="noreferrer"

@@ -10,7 +10,7 @@
 
 .customDiv h4 {
   float: left !important;
-  color: #007bff;
+  /* color: #007bff; */
 }
 
 .customDiv p {
@@ -51,11 +51,11 @@
 
 @media only screen and (max-width: 600px) {
   .customCard {
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
     float: none;
     margin-bottom: 30px !important;
-    width: 90% !important;
+    width: 98% !important;
   }
   .customHosting {
     margin-bottom: 0px !important;
