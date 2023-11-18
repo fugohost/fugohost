@@ -5,10 +5,15 @@ function Development() {
   return (
     <div className="row developmentDiv">
       <div className="col-sm-12 col-md-5 developmentDivLeft">
-        <p>
+        <h1>
           Custom Software Development
           <br />
-          That <br /> Makes A Difference
+          That Makes
+          <br /> A Difference
+        </h1>
+        <p>
+          Get a tailored solutions for your business to improve productivity and
+          have a competitive advantage
         </p>
         <a
           type="button"

@@ -165,6 +165,8 @@ main {
   width: 40%;
   max-height: 500px;
   height: auto;
+  padding-left: 50px !important;
+  padding-top: 50px !important;
 }
 .developmentDivRight {
   float: right;
@@ -178,12 +180,19 @@ main {
   width: 100%;
   height: auto;
 }
-.developmentDivLeft p {
+.developmentDivLeft h1 {
   width: 100%;
   font-size: 2rem;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  text-align: left;
+  font-weight: 600;
+}
+.developmentDivLeft p {
+  width: 100%;
+  font-size: 1rem;
+  text-align: left;
+}
+.developmentDivLeft a:last-child {
+  float: left;
 }
 .developmentDivLeft img {
   width: 80%;
@@ -192,12 +201,13 @@ main {
   margin-left: 10%;
   margin-right: 10%;
 }
-.hostingContainer p {
+.hostingContainer h1 {
   width: 100%;
   font-size: 2rem;
   text-align: center;
   padding-top: 20px;
   margin-bottom: 0px;
+  font-weight: 600;
 }
 .tile {
   float: left;
@@ -239,7 +249,6 @@ main {
 
 .customHeaderLink:hover {
   color: #f95959 !important;
-  text-decoration: underline !important;
 }
 
 @keyframes App-logo-spin {
@@ -266,10 +275,15 @@ main {
   .developmentDivLeft {
     background-color: #ccedff;
     padding-bottom: 40px !important;
+    padding-left: 20px !important;
+    padding-top: 20px !important;
   }
-  p {
-    font-size: 1.5rem !important;
+
+  .developmentDivLeft h1 {
+    font-weight: 400;
+    font-size: 1.8rem;
   }
+
   .tile {
     float: left;
     margin: 5% 6% 0% 6%;

@@ -40,10 +40,10 @@ const tiles = [
 function TechStack() {
   return (
     <div className="hostingContainer" id="Hosting">
-      <p>
+      <h1>
         Your Website Development With Us <br /> Mean <br /> Best Tech Stack
-      </p>
-      <div>
+      </h1>
+      <div className="tileContainer">
         {tiles.map((tile) => {
           return (
             <div className="tile">
