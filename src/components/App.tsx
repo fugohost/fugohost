@@ -19,13 +19,15 @@ function App() {
     <div className="App">
       <HashRouter>
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/web-hosting" element={<Hosting />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="web-development" element={<WebDevelopment />} />
-        </Routes>
+        <div className="mainWrapper">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/web-hosting" element={<Hosting />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="web-development" element={<WebDevelopment />} />
+          </Routes>
+        </div>
         <Footer />
       </HashRouter>
     </div>
